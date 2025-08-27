@@ -1,4 +1,4 @@
-# basic_component_application
+# A Basic Component Application
 
 A Kotlin-based Android project showcasing the functionality and usage of various Android components.
 
