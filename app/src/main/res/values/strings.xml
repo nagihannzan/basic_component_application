@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">componentApplication</string>
+    <string-array name="city_array">
+        <item>Istanbul</item>
+        <item>Ankara</item>
+        <item>İzmir</item>
+        <item>Samsun</item>
+        <item>Bursa</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>Türkçe</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="books_array">
+        <item>Othello</item>
+        <item>Kreutzer Sonat</item>
+        <item>Macbeth</item>
+        <item>Bir Yaz Gecesi Rüyası</item>
+        <item>Fırtına</item>
+        <item>Kendime Düşünceler</item>
+        <item>Dorian Gray\in Portresi</item>
+        <item>Hamlet</item>
+        <item>Romeo ve Juliet</item>
+        <item>Yalnızız</item>
+        <item>1989</item>
+        <item>Dava</item>
+        <item>Dönüşüm</item>
+        <item>Olağanüstü Bir Gece</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

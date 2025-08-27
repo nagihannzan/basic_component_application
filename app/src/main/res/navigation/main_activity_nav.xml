@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.componentapplication.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/editTextGecis"
+            app:destination="@id/editTextFragment" />
+        <action
+            android:id="@+id/checkboxGecis"
+            app:destination="@id/checkboxFragment" />
+        <action
+            android:id="@+id/radioButtonGecis"
+            app:destination="@id/radioButtonFragment" />
+        <action
+            android:id="@+id/spinnerGecis"
+            app:destination="@id/spinnerFragment" />
+        <action
+            android:id="@+id/listViewGecis"
+            app:destination="@id/listViewFragment" />
+        <action
+            android:id="@+id/recyclerViewGecis"
+            app:destination="@id/recyclerViewFragment" />
+        <action
+            android:id="@+id/seekBarGecis"
+            app:destination="@id/seekBarFragment" />
+        <action
+            android:id="@+id/progressBarGecis"
+            app:destination="@id/progressBarFragment" />
+        <action
+            android:id="@+id/imageButtonGecis"
+            app:destination="@id/imageButtonFragment" />
+        <action
+            android:id="@+id/switchGecis"
+            app:destination="@id/switchFragment" />
+        <action
+            android:id="@+id/dateTimePickerGecis"
+            app:destination="@id/dateTimePickerFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTextFragment"
+        android:name="com.example.componentapplication.EditTextFragment"
+        android:label="fragment_edit_text"
+        tools:layout="@layout/fragment_edit_text" >
+        <action
+            android:id="@+id/anasayfaGecis1"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkboxFragment"
+        android:name="com.example.componentapplication.CheckboxFragment"
+        android:label="fragment_checkbox"
+        tools:layout="@layout/fragment_checkbox" >
+        <action
+            android:id="@+id/buttonAnasayfa2"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/radioButtonFragment"
+        android:name="com.example.componentapplication.RadioButtonFragment"
+        android:label="fragment_radio_button"
+        tools:layout="@layout/fragment_radio_button" >
+        <action
+            android:id="@+id/anasayfaGecis3"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.example.componentapplication.SpinnerFragment"
+        android:label="fragment_spinner"
+        tools:layout="@layout/fragment_spinner" >
+        <action
+            android:id="@+id/anasayfaGecis4"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listViewFragment"
+        android:name="com.example.componentapplication.ListViewFragment"
+        android:label="fragment_list_view"
+        tools:layout="@layout/fragment_list_view" >
+        <action
+            android:id="@+id/anasayfaGecis5"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.example.componentapplication.RecyclerViewFragment"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" >
+        <action
+            android:id="@+id/anasayfaGecis6"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seekBarFragment"
+        android:name="com.example.componentapplication.SeekBarFragment"
+        android:label="fragment_seek_bar"
+        tools:layout="@layout/fragment_seek_bar" >
+        <action
+            android:id="@+id/anasayfaGecis7"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/progressBarFragment"
+        android:name="com.example.componentapplication.ProgressBarFragment"
+        android:label="fragment_progress_bar"
+        tools:layout="@layout/fragment_progress_bar" >
+        <action
+            android:id="@+id/anasayfaGecis8"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageButtonFragment"
+        android:name="com.example.componentapplication.ImageButtonFragment"
+        android:label="fragment_image_button"
+        tools:layout="@layout/fragment_image_button" >
+        <action
+            android:id="@+id/anasayfaGecis9"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/switchFragment"
+        android:name="com.example.componentapplication.SwitchFragment"
+        android:label="fragment_switch"
+        tools:layout="@layout/fragment_switch" >
+        <action
+            android:id="@+id/anasayfaGecis10"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dateTimePickerFragment2"
+        android:name="com.example.componentapplication.DateTimePickerFragment"
+        android:label="fragment_date_time_picker"
+        tools:layout="@layout/fragment_date_time_picker" >
+        <action
+            android:id="@+id/anasayfaGecis11"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+</navigation>
